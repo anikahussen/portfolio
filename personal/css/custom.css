@@ -1,0 +1,513 @@
+/* all sites */
+
+@font-face {
+	font-family: newfont;
+	src: url(../../portfolio_assets/Squared_Display.ttf);
+}
+
+@font-face {
+	font-family: otherfont;
+	src: url(../../portfolio_assets/RobotoCondensed-Regular.ttf);
+}
+
+body{
+	background 	: rgba(63, 132, 222, 0.30);
+	padding 	: 0px;
+	margin 		: 0px;
+}
+
+.personalnav{
+width:1000px;
+background-color: rgba(63, 132, 222, 0.30);
+overflow: hidden;
+margin: auto;
+
+}
+.personalnav ul {
+
+	list-style 	: none;
+	padding 	: 0px;
+	margin 		: 0px;
+
+	display 	: flex;
+}
+
+.personalnav ul li{
+
+
+	flex-grow 		: 1;
+
+	text-align 		: center;
+	font-family: 'newfont', serif;
+	padding: 15px;
+	font-size: 18px;
+  font-weight: bold;
+	text-decoration: none;
+
+	text-transform 	: uppercase;
+}
+
+.subNavPortfolio ul li{
+	padding 	: 0px;
+	margin 		: 0px;
+
+
+
+}
+
+.subNavPersonal ul li{
+	padding 	: 0px;
+	margin 		: 0px;
+}
+
+
+
+
+
+/*next */
+
+
+/* personal nav */
+
+
+/* personal site */
+
+#portraits {
+    display: block;
+		width: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+#mainInterests {
+	display: block;
+	width: 100%;
+	text-align: center;
+
+
+}
+
+.interest
+{
+
+	display: block;
+    Width: 33%;
+		height: inherit;
+    float:left;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 200px;
+
+
+
+}
+
+#socialMedia {
+
+display: flex;
+
+}
+
+.icons
+{
+	display: block;
+
+    float:left;
+		text-align: center;
+		flex-grow: 1;
+		padding-top: 100px;
+		padding-bottom: 200px;
+
+
+}
+
+/* gallery navigation in personal site */
+
+resumeNav{
+
+}
+.resumeNav ul {
+  border 		: solid 1px black;
+  list-style 	: none;
+  padding 	: 0px;
+  margin 		: 0px;
+
+  display 	: flex;
+}
+
+.resumeNav ul li{
+
+
+  flex-grow 		: 1;
+
+  text-align 		: center;
+  font-family: 'newfont', serif;
+  padding-top 	: 5px;
+  padding-bottom 	: 5px;
+  font-weight: bold;
+  text-transform 	: uppercase;
+}
+
+.resumeNav ul li{
+  padding 	: 0px;
+  margin 		: 0px;
+
+
+}
+
+.resumeNav ul li{
+  padding 	: 0px;
+  margin 		: 0px;
+  border : none
+
+}
+
+.resumeNav a:link{
+    text-decoration : none;
+    color 			: #2F4F4F;
+
+  }
+
+.resumeNav a:hover{
+    text-decoration: line-through;
+  }
+
+.resumeNav a:visited{
+    color 	: #DB7093;
+
+  }
+
+
+.resumeNav a:active{
+    font-size 	: 10pt;
+    text-decoration: line-through;
+  }
+
+
+.resumeNav a:focus{
+    font-size 	: 10pt;
+
+  }
+
+
+      /* gallery nav */
+
+      .galleryNav{
+
+      }
+      .galleryNav ul {
+      	border 		: solid 1px black;
+      	list-style 	: none;
+      	padding 	: 25px;
+      	margin 		: 25px;
+      	display 	: flex;
+      }
+
+      .galleryNav ul li{
+
+
+      	flex-grow 		: 1;
+
+      	text-align 		: center;
+      	font-family: 'newfont', serif;
+      	padding-top 	: 25px;
+      	padding-bottom 	: 25px;
+        font-weight: bold;
+
+
+      	text-transform 	: uppercase;
+      }
+
+      .galleryNav ul li{
+      	padding 	: 0px;
+      	margin 		: 0px;
+
+
+      }
+
+      .galleryNav ul li{
+      	padding 	: 0px;
+      	margin 		: 0px;
+        border : none
+
+      }
+
+      .galleryNav a:link{
+      		text-decoration : none;
+      		color 			: #2F4F4F;
+
+      	}
+
+      .galleryNav a:hover{
+      		text-decoration: line-through;
+      	}
+
+      .galleryNav a:visited{
+      		color 	: #DB7093;
+
+      	}
+
+
+      .galleryNav a:active{
+      		font-size 	: 10pt;
+      		text-decoration: line-through;
+      	}
+
+
+      .galleryNav a:focus{
+      		font-size 	: 10pt;
+
+      	}
+
+
+/* personal nav */
+
+.personalnav{
+
+}
+.personalnav ul {
+	border 		: solid 1px black;
+	list-style 	: none;
+	padding 	: 0px;
+	margin 		: 50px;
+  padding-top 	: 25px;
+  padding-bottom 	: 25px;
+	display 	: flex;
+}
+
+.personalnav ul li{
+
+
+	flex-grow 		: 1;
+
+	text-align 		: center;
+	font-family: 'newfont', serif;
+	padding-top 	: 5px;
+	padding-bottom 	: 5px;
+  font-weight: bold;
+
+	text-transform 	: uppercase;
+}
+
+.personalnav ul li{
+	padding 	: 0px;
+	margin 		: 0px;
+
+
+}
+
+.personalnav ul li{
+	padding 	: 0px;
+	margin 		: 0px;
+  border : none
+
+}
+
+.personalnav a:link{
+		text-decoration : none;
+		color 			: #2F4F4F;
+
+	}
+
+.personalnav a:hover{
+		text-decoration: line-through;
+	}
+
+.personalnav a:visited{
+		color 	: #DB7093;
+
+	}
+
+
+.personalnav a:active{
+		font-size 	: 10pt;
+		text-decoration: line-through;
+	}
+
+
+.personalnav a:focus{
+		font-size 	: 10pt;
+
+	}
+
+
+
+
+/* resume nav */
+
+.resumeNav{
+
+}
+.resumeNav ul {
+  border 		: solid 1px black;
+  list-style 	: none;
+  padding 	: 0px;
+  margin 		: 0px;
+
+  display 	: flex;
+}
+
+.resumeNav ul li{
+
+
+  flex-grow 		: 1;
+
+  text-align 		: center;
+  font-family: 'newfont', serif;
+  padding-top 	: 5px;
+  padding-bottom 	: 5px;
+  font-weight: bold;
+  text-transform 	: uppercase;
+}
+
+.resumeNav ul li{
+  padding 	: 0px;
+  margin 		: 0px;
+
+
+}
+
+.resumeNav ul li{
+  padding 	: 0px;
+  margin 		: 0px;
+  border : none
+
+}
+
+.resumeNav a:link{
+    text-decoration : none;
+    color 			: #2F4F4F;
+
+  }
+
+.resumeNav a:hover{
+    text-decoration: line-through;
+  }
+
+.resumeNav a:visited{
+    color 	: #DB7093;
+
+  }
+
+
+.resumeNav a:active{
+    font-size 	: 10pt;
+    text-decoration: line-through;
+  }
+
+
+.resumeNav a:focus{
+    font-size 	: 10pt;
+
+  }
+
+
+      /* gallery nav */
+
+      .resumeNav{
+
+      }
+      .resumeNav ul {
+      	border 		: solid 1px black;
+      	list-style 	: none;
+      	padding 	: 25px;
+      	margin 		: 25px;
+      	display 	: flex;
+      }
+
+      .resumeNav ul li{
+
+
+      	flex-grow 		: 1;
+
+      	text-align 		: center;
+      	font-family: 'newfont', serif;
+      	padding-top 	: 25px;
+      	padding-bottom 	: 25px;
+        font-weight: bold;
+
+
+      	text-transform 	: uppercase;
+      }
+
+      .resumeNav ul li{
+      	padding 	: 0px;
+      	margin 		: 0px;
+
+
+      }
+
+      .resumeNav ul li{
+      	padding 	: 0px;
+      	margin 		: 0px;
+        border : none
+
+      }
+
+      .resumeNav a:link{
+      		text-decoration : none;
+      		color 			: #2F4F4F;
+
+      	}
+
+      .resumeNav a:hover{
+      		text-decoration: line-through;
+      	}
+
+      .resumeNav a:visited{
+      		color 	: #DB7093;
+
+      	}
+
+
+      .resumeNav a:active{
+      		font-size 	: 10pt;
+      		text-decoration: line-through;
+      	}
+
+
+      .resumeNav a:focus{
+      		font-size 	: 10pt;
+
+      	}
+
+
+
+
+#Experience tr {
+	display 	: flex;
+}
+
+#Experience tr ul li {
+
+	text-align: center;
+
+
+}
+
+
+#Experience tr ul p {
+
+	text-align: center;
+}
+
+	#interestintro {
+			width: 45%;
+			height: 45%;
+
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+
+	#interestrow {
+		margin-bottom: 10%;
+	}
+
+	
+
+	#personalrow {
+		margin-bottom: 25px;
+	}
