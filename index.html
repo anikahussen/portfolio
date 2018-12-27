@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Portfolio Site</title>
+<link rel="icon" type="image/png" href="tempfavicon.png">
+  <link rel="stylesheet" href="portfolio_css/custom.css"/>
+
+  <link rel="stylesheet" media="only screen and (max-width: 414px)" href="portfolio_css/mobile.css">
+
+  <!-- Media query for medium browser width -->
+
+  <link rel="stylesheet" media="only screen and (min-width: 415px) and (max-width: 1024px)" href="portfolio_css/tablet.css">
+
+
+  <!-- Media query for full browser width -->
+  <link rel="stylesheet" media="only screen and (min-width: 1025px)" href="portfolio_css/desktop.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="cause/css/bootstrap.min.css"  >
+
+
+
+
+  <!-- Prevent smartphones from scaling pages down -->
+  <meta name="viewport" content="initial-scale=1">
+
+
+
+
+
+
+
+<style>
+.bars {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.row {
+  margin-bottom: 5%;
+}
+body {
+    background-color: rgba(63, 132, 222, 0.30);
+}
+  h1 {
+margin-top: 15%;
+
+  }
+
+
+.finalnav {
+  width: 100%;
+
+
+}
+
+button {
+  height: 150%;
+
+}
+#portfolionavi {
+
+  background-image: url("portfolio_images/home.png");
+  background-size: 10% 100%;
+  background-repeat: repeat-x;
+}
+
+#personalnavi {
+
+  background-image: url("portfolio_images/girl.png");
+  background-size: 10% 100%;
+  background-repeat: repeat-x;
+}
+
+
+
+#interestnavi {
+
+  background-image: url("portfolio_images/pixarmarvel.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#causenavi {
+
+  background-image: url("portfolio_images/fem.png");
+  background-size: 10% 100%;
+  background-repeat: repeat-x;
+}
+
+#graphicsnavi {
+
+  background-image: url("portfolio_images/paint.png");
+  background-size: 12.4% 100%;
+  background-repeat: repeat-x;
+}
+
+#wireframenavi {
+
+  background-image: url("portfolio_images/wireframe.png");
+  background-size: 40% 100%;
+  background-repeat: repeat-x;
+}
+
+#responsivenavi {
+
+  background-image: url("portfolio_images/responsive.png");
+  background-size: 43% 100%;
+  background-repeat: repeat-x;
+}
+
+#bootstrapnavi {
+
+  background-image: url("portfolio_images/bootstrap.png");
+  background-size: 14% 100%;
+  background-repeat: repeat-x;
+}
+
+#jquerynavi {
+
+  background-image: url("portfolio_images/jquery.png");
+  background-size: 14% 100%;
+  background-repeat: repeat-x;
+}
+
+#personaltitles {
+  font-family: 'newfont';
+  margin-bottom: 5%;
+}
+
+#by {
+  margin-top: 15%;
+  font-family: 'newfont';
+  font-weight: bold;
+}
+
+
+
+  .row {
+    margin-bottom: 10%;
+    width: 80%;
+
+  }
+
+#interestrow {
+  margin-top: 10%;
+  width: 90%;
+  width: 80%;
+}
+#personalrow {
+  margin-top: 10%;
+  width: 80%;
+}
+
+.interestintro {
+  height:95%;
+  width: 95%;
+
+}
+
+.personalintro {
+  height:95%;
+  width: 95%;
+
+}
+
+#playlogic:hover{
+  -webkit-filter: drop-shadow(1px 1px 0 red)
+                  drop-shadow(-1px -1px 0 red);
+  filter: drop-shadow(1px 1px 0 red)
+          drop-shadow(-1px -1px 0 red);
+
+	}
+
+#playhp:hover{
+  -webkit-filter: drop-shadow(1px 1px 0 green)
+                  drop-shadow(-1px -1px 0 green);
+  filter: drop-shadow(1px 1px 0 green)
+          drop-shadow(-1px -1px 0 green);
+
+  }
+
+  #playmarvel:hover{
+    -webkit-filter: drop-shadow(1px 1px 0 yellow)
+                    drop-shadow(-1px -1px 0 yellow);
+    filter: drop-shadow(1px 1px 0 yellow)
+            drop-shadow(-1px -1px 0 yellow);
+          }
+
+  #playpixar:hover{
+    -webkit-filter: drop-shadow(1px 1px 0 black)
+                    drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(1px 1px 0 black)
+            drop-shadow(-1px -1px 0 black);
+    }
+
+
+    .slidingup {
+        border-left-color: purple;
+        background-color: none;
+
+    }
+
+    .slidingdown {
+      border-right-color: purple;
+      background-color: none;
+
+  }
+
+
+#femm {
+  	font-family: 'Miss Order';
+  	font-size: 65px;
+    font-weight: bold;
+    text-shadow: 2px 2px #d60683;
+  }
+}
+
+</style>
+  </head>
+
+
+  <body onload="loadSound()" id=portfolioIndex>
+
+
+
+  <!--navigation links to all websites along with subnavigation-->
+  <nav id="desktopNav">
+      <ul>
+        <li> <a href="index.html">Portfolio</a></li>
+        <li> <a href="personal/index.html">Personal</a></li>
+        <li> <a href="interest/index.html">Interest</a></li>
+        <li> <a href="cause/index.html">Cause</a></li>
+      </ul>
+    </nav>
+
+    <div id="smallnavi">
+      <div class = "bars"></div>
+      <div class = "bars"></div>
+      <div class = "bars"></div>
+      <div id="smallnav1">
+
+        <a href="index.html">Portfolio</a>
+      </div>
+    <div id="smallnav1">
+      <a href="personal/index.html">Personal</a>
+    </div>
+    <div id="smallnav2">
+     <a href="interest/index.html">Interest</a>
+     </div>
+
+
+    <div id="smallnav7">
+
+    <a href="cause/index.html">Cause</a>
+    </div>
+
+
+    </div>
+
+
+
+<!--GRAPHIC NAV BUTTTON-->
+
+<div class="fullPortfolio" align="center">
+
+
+<h2 id="by">B Y  |  A N I K A </h2>
+<h4 id="personaltitles">S T U D E N T</h4>
+
+
+<div class="container-fluid" >
+<div class="row">
+  <div class="col-md-2">
+  </div>
+<div class="col-md-8" class="finalnav">
+<a href="index.html">  <button type="button" id="portfolionavi" class="btn btn-secondary btn-lg btn-block"><h3>Home</h3></button></a>
+
+
+</div>
+<div class="col-md-2">
+</div>
+
+</div>
+<div class="row">
+  <div class="col-md-2">
+  </div>
+<div class="col-md-8" class="finalnav">
+<a href="personal/index.html">  <button id="personalnavi"type="button" class="btn btn-secondary btn-lg btn-block"><h3>Personal</h3></button></a>
+
+
+</div>
+<div class="col-md-2">
+</div>
+</div>
+
+<div id="personalrow" class="row">
+  <div class="col-md-4">
+  </div>
+
+<div class="col-md-4" >
+
+  <p style="font-size: 24px;" id="aboutme">Born and raised in New York City, Anika is an aspiring traveler, creator and change-maker. </p>
+
+  <button style="width: 20%; height: 30%;" class="slidingup">Λ</button>
+  <button style="width: 20%; height: 30%;" class="slidingdown">V</button>
+
+
+
+</div>
+
+<div class="col-md-4">
+</div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-2">
+  </div>
+<div class="col-md-8" class="finalnav">
+<a href="interest/index.html">  <button id="interestnavi" type="button" class="btn btn-secondary btn-lg btn-block"><h3>Interest</h3></button></a>
+
+
+</div>
+
+<div class="col-md-2">
+</div>
+</div>
+
+</div>
+
+
+
+
+<div id="interestrow" class="row">
+  <div class="col-md-2">
+  </div>
+
+<div class="col-md-2" >
+<img class="interestintro" id="playlogic" src = "portfolio_images/logic.png">
+
+</div>
+
+
+
+
+
+<div class="col-md-2" >
+<img class="interestintro"  id="playmarvel" src = "portfolio_images/Marvel.jpg">
+
+
+</div>
+
+
+
+
+
+<div class="col-md-2" >
+<img class="interestintro" id="playpixar" src = "portfolio_images/pixarlamp.png">
+
+
+</div>
+
+
+
+
+
+<div class="col-md-2" >
+<img class="interestintro" id="playhp" src = "portfolio_images/hogwarts.gif">
+
+
+</div>
+
+<div class="col-md-2">
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-2">
+  </div>
+<div class="col-md-8" class="finalnav">
+<a href="cause/index.html">  <button type="button" id="causenavi" class="btn btn-secondary btn-lg btn-block"><h3>Cause</h3></button></a>
+
+
+</div>
+<div class="col-md-2">
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-md-4">
+</div>
+
+<div class="col-md-4">
+  <h2 id="femm"></h2>
+</div>
+
+<div class="col-md-4">
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-2">
+  </div>
+<div class="col-md-8" class="finalnav">
+  <a href="webGraphics.html"><button type="button" id="graphicsnavi" class="btn btn-secondary btn-lg btn-block"><h3>Photoshop</h3></button></a>
+
+
+</div>
+<div class="col-md-2">
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-2">
+  </div>
+<div class="col-md-8" class="finalnav">
+  <a href="wireframe.html"><button type="button" id="wireframenavi" class="btn btn-secondary btn-lg btn-block"><h3>Wireframes</h3></button></a>
+
+
+</div>
+<div class="col-md-2">
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-2">
+  </div>
+<div class="col-md-8" class="finalnav">
+<a href="interest/index.html">  <button type="button" id="responsivenavi" class="btn btn-secondary btn-lg btn-block"><h3>Responsive</h3></button></a>
+
+
+</div>
+<div class="col-md-2">
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-2">
+  </div>
+<div class="col-md-8" class="finalnav">
+<a href="cause/index.html"><button type="button" id="bootstrapnavi" class="btn btn-secondary btn-lg btn-block"><h3>Bootstrap</h3></button></a>
+
+
+</div>
+<div class="col-md-2">
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-2">
+  </div>
+<div class="col-md-8" class="finalnav">
+<a href="index.html">  <button type="button" id="jquerynavi" class="btn btn-secondary btn-lg btn-block"><h3>JQUERY</h3></button></a>
+
+
+</div>
+<div class="col-md-2">
+</div>
+</div>
+
+
+
+
+<!--Bootstrap linking-->
+
+<script src="js/jquery-3.3.1.slim.min.js" ></script>
+<!-- <script src="cause/js/popper.min.js" ></script> -->
+<script src="js/bootstrap.min.js" ></script>
+<!-- -->
+
+
+
+<!--JQUERY linking-->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="portfolio_js/jquery-3.3.1.js"></script>
+<script src="portfolio_js/popper.min.js" ></script>
+<script src="portfolio_js/bootstrap.min.js" ></script>
+<!--Velocity linking-->
+	<script src="portfolio_js/velocity.js"></script>
+	<script src="portfolio_js/velocity.ui.js"></script>
+
+
+  <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+
+
+  <script src="http://code.createjs.com/soundjs-0.5.2.min.js"></script>
+    <!--JS linking-->
+
+<script src="portfolio_js/custom.js"></script>
+
+  </body>
+
+</html>
