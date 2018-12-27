@@ -1,0 +1,170 @@
+/* all sites */
+
+@font-face {
+	font-family: 'newfont';
+	src: url(../portfolio_assets/Squared_Display.ttf)
+}
+
+@font-face {
+	font-family: 'otherfont';
+	src: url(../portfolio_assets/RobotoCondensed-Regular.ttf)
+}
+
+p {
+
+	font-size: 12px;
+	font-family: 'newfont';
+	font-weight: bold;
+
+}
+
+h1 {
+	font-size: 48px;
+	font-family: 'otherfont';
+	font-weight: bold;
+
+}
+
+body {
+
+  background-color: rgba(63, 132, 222, 0.30);
+	padding-top 	: 0px;
+	margin 		: 0px;
+}
+
+
+
+.mytable {
+
+border-radius: 50%;
+
+}
+/*general navigation*/
+#desktopNav{
+	border 			: solid 0px blue;
+	width 			: 100vw;
+	position 		: relative;
+	right 			: 0px;
+	top 			: 0px;
+	z-index 		: 2;
+}
+
+#desktopNav ul{
+	border 			: solid 0px red;
+	list-style 	: none;
+	margin 			: 0px;
+	padding 		: 0px;
+	display 		: flex;
+	background 		: #333;
+	border-bottom-left-radius: 10px;
+}
+
+#desktopNav ul li{
+	border 			    : solid 0px black;
+	text-align 		  : center;
+	text-transform 	: uppercase;
+	font-weight 	: bold;
+	flex-grow 		: 1;
+	padding 			: 50px;
+
+
+}
+
+#desktopNav ul li a{
+	text-decoration: none;
+	color 			: white;
+	font-family	: 'newfont';
+
+}
+
+#desktopNav ul li:link{
+  background-color:#5F9EA0;
+}
+
+#desktopNav ul li:hover{
+  background-color:#5F9EA0;
+}
+
+#desktopNav ul li:active{
+	background-color:#5F9EA0;
+}
+
+#desktopNav ul:visited{
+  background-color:#5F9EA0;
+}
+
+
+
+
+
+/* contact page */
+
+
+
+
+/* portfolio site */
+
+#personalSection{
+border 		: solid 1px black;
+min-height 	: 50vh;
+background-color : rgba(244, 148, 128, 0.25);
+margin : 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+
+}
+
+
+
+#interestSection{
+border 		: solid 1px black;
+min-height 	: 50vh;
+background-color : rgba(244, 148, 128, 0.25);
+margin : 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+
+#causeSection{
+border 		: solid 1px black;
+min-height 	: 50vh;
+background-color : rgba(244, 148, 128, 0.25);
+margin : 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+
+
+.fullPortfolio a:link{
+		text-decoration : none;
+		color 			: #2F4F4F;
+
+	}
+
+.fullPortfolio a:hover{
+		text-decoration: line-through;
+	}
+
+.fullPortfolio a:visited{
+	text-decoration: line-through;
+		color 	: #4B0082;
+	}
+
+
+.fullPortfolio a:active{
+		font-size 	: 10pt;
+
+	}
+
+
+.fullPortfolio a:focus{
+		font-size 	: 30pt;
+	}
+
+/* gallery navigation in personal site */

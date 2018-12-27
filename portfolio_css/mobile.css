@@ -1,0 +1,45 @@
+#smallnavi {
+	border-width: thick;
+	border-style: solid;
+	border-color: white;
+	width: 200px;
+
+}
+
+#smallnavi a{
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	font-weight: bold;
+	color: orangered;
+}
+
+
+
+
+#desktopNav {
+	display:none;
+
+}
+
+
+#graphicbtn {
+  background-color: lightblue;
+
+  font-family: 'newfont'
+}
+
+#graphiccontainer button.hover{
+  background-color: pink;
+}
+
+h3 {
+  border-style: solid;
+  border-color: lightblue;
+  border-radius: 15%;
+  width:56%;
+  margin-left: 22%;
+  background-color: lightblue;
+	font-size: 18px;
+}
