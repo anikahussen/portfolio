@@ -1,0 +1,321 @@
+/*Fonts universal to all CSS pages*/
+@font-face {
+	font-family: 'newfont';
+	src: url(../portfolio_assets/Squared_Display.ttf)
+}
+
+@font-face {
+	font-family: 'otherfont';
+	src: url(../portfolio_assets/RobotoCondensed-Regular.ttf)
+}
+
+#desktopNav {
+	display:none;
+
+}
+#interestIndex {
+    background-image: url("../images/sparkles.png");
+    align-items: center;
+    background-repeat: repeat;
+    align-items: center;
+    background-attachment: scroll;
+		clear:both;
+	}
+
+#titlediv {
+			display: none;
+}
+
+#interesttitle {
+	border-style: dotted;
+	border-width: thick;
+	width: 33%;
+	margin: 33%;
+	display: flex;
+	clear:both;
+
+}
+
+#Welcome {
+	font-family: 'newfont';
+	font-size: 24px;
+	color: black;
+	text-shadow: 2px 2px #aaf0d1;
+	text-align: center;
+	clear:both;
+}
+
+#interestsdiv {
+	display: flex;
+}
+
+.textual {
+font-size: 16px;
+font-weight: bold;
+color: black;
+text-shadow: 2px 2px #aaf0d1;
+text-align: center;
+}
+
+#passiondiv {
+
+	border-color: #aac9f0
+	padding: 100px;
+	margin-top: 200px;
+	margin-left: 25%;
+	margin-right: 25%;
+
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	clear: both;
+	flex
+
+}
+
+
+#int {
+
+
+	text-align: center;
+	font-family: "newfont";
+	color: #e569a0;
+	text-shadow: 2px 2px #aaf0d1;
+	font-size: 24px;
+
+}
+
+#marvel{
+	width: 33%;
+	height: 33%;
+
+	margin-left: 33%;
+	margin-right: 33%;
+
+}
+
+#wizardingworld{
+	width: 33%;
+	height: 33%;
+
+	margin-left: 33%;
+	margin-right: 33%;
+
+
+
+}
+
+
+
+
+
+#logic{
+	width: 33%;
+	height: 33%;
+
+	margin-left: 33%;
+	margin-right: 33%;
+
+
+
+}
+
+#pixar{
+	width: 33%;
+	height: 33%;
+
+	margin-left: 33%;
+	margin-right: 33%;
+
+}
+	.fixedBox2 {
+		display: none;
+	}
+
+	#bars {
+		display: block;
+		position: relative;
+		top:0;
+    left:0;
+
+	}
+
+	#morenav {
+		position: absolute;
+		margin-left: 0px;
+	}
+
+
+
+	a {
+		text-decoration: none;
+		color: red;
+		font-weight: bold;
+
+
+	}
+
+/**Avengers***/
+
+.avengerstext {
+	font-size: 36px;
+}
+
+#avengerstitle {
+	line-height: 40px;
+
+}
+
+img {
+width: 200px;
+height: 200px;
+
+
+}
+
+#theme {
+	width: 20px;
+	margin-left: 25%
+
+}
+
+
+audio control {
+ width:75%;
+
+}
+
+#pixartimelines {
+height: 70%;
+width: 100%;
+align-self: center;
+
+}
+
+#logicimgs {
+	margin-left: -20%;
+	height: 20%;
+
+}
+
+#logictext {
+display: none;
+
+}
+
+#logictitle {
+	align-self: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+#playlist {
+	display: block;
+
+}
+
+.hpspecificnav{
+	display: none;
+}
+
+.tabletview {
+display: none;
+
+}
+
+
+
+#marvel{
+
+	border-radius: 50%;
+
+
+}
+
+#marvel:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px red;
+
+	}
+
+
+#wizardingworld{
+
+	border-radius: 50%;
+
+
+
+
+}
+
+#wizardingworld:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px gold;
+
+	}
+
+
+.fixedBox2 {
+	display: none;
+}
+
+
+}
+
+
+#logic{
+
+	border-radius: 50%;
+
+
+}
+
+#logic:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px yellow;
+
+	}
+
+#pixar{
+
+	border-radius: 50%;
+
+
+}
+
+#pixar:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px pink;
+
+	}
+
+#directions {
+	margin: 25%;
+	border-style: dashed;
+	border-color: green;
+	font-size: 24px;
+
+}
+
+#subdirections {
+	margin: 25%;
+	border-style: dashed;
+	border-color: green;
+	font-size: 24px;
+
+}
+
+#tabletNav {
+	display: none;
+}
+
+#smallnavi {
+	border-width: thick;
+	border-style: solid;
+	border-color: white;
+	width: 200px;
+
+}
+
+a:active {
+    text-decoration: line-through;
+}

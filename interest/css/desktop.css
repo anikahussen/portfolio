@@ -1,0 +1,440 @@
+/*Fonts universal to all CSS pages*/
+@font-face {
+	font-family: 'newfont';
+	src: url(../portfolio_assets/Squared_Display.ttf)
+}
+
+@font-face {
+	font-family: 'otherfont';
+	src: url(../portfolio_assets/RobotoCondensed-Regular.ttf)
+}
+@font-face {
+	font-family: 'wizardry';
+	src: url(../portfolio_assets/wizzta.ttf)
+}
+
+
+#interestIndex {
+    background-image: url("../images/leftbackground.png"), url("../images/rightbackground.png") ;
+    background-position: left top 100px, right top 100px;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+
+}
+
+#titlediv {
+	border-radius: 25%;
+	position: relative;
+	width: 70%;
+	height: 600px;
+	margin-top: 250px;
+	margin-left: 15%;
+	margin-right: 15%;
+	position: relative;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	clear: both;
+
+}
+
+.interestbanner {
+	border-radius: 10%;
+	height:500px;
+	width:80%;
+	opacity: .5;
+
+}
+
+#interesttitle {
+	display: flex;
+
+}
+
+#Welcome {
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+  left: 50%;
+	margin-left: -290px;
+	margin-top: 270px;
+	font-family: 'newfont';
+	text-align: center;
+	font-size: 48px;
+	color: black;
+	text-shadow: 2px 2px #8dbab4;
+}
+
+
+.textual {
+font-size: 16px;
+font-weight: bold;
+color: #e569a0;
+text-shadow: 2px 2px #aaf0d1;
+margin-left: 15%;
+margin-right: 33%;
+width: 70%;
+margin-bottom; 10%;
+}
+
+.firstgroup {
+  display: flex;
+
+  margin-top: 100px;
+	margin-left: 25%;
+	margin-right: 25%;
+	height: 360px;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.orange-column {
+  height: 360px;
+}
+
+.blue-column {
+  height: 360px;
+}
+
+.green-column {
+  height: 360px;
+}
+
+
+.secondgroup {
+  display: flex;
+  margin-top: 100px;
+	margin-left: 33.35%;
+	margin-right: 33.35%;
+
+  justify-content: center;
+  align-items: center;
+	height: 360px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.blue-column2 {
+  min-height: 200px;
+}
+
+.green-column2 {
+    min-height: 200px;
+
+}
+
+.thirdgroup {
+  display: flex;
+  margin-top: 100px;
+	margin-left: 25%;
+	margin-right: 25%;
+
+  justify-content: center;
+  align-items: center;
+	height: 360px;
+
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.column3 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.orange-column3 {
+  height: 360px;
+}
+
+.blue-column3 {
+  height: 360px;
+}
+
+.green-column3 {
+  height: 360px;
+}
+
+.interestsdiv {
+  padding: 10px;
+
+}
+
+.interesticon {
+  width:100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align:center;
+
+
+}
+
+p {
+  font-family: 'newfont';
+  font-size: 18px;
+  text-align: center;
+
+}
+#marvel{
+
+	border-radius: 50%;
+
+
+}
+
+#marvel:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px red;
+
+	}
+
+
+#wizardingworld{
+
+	border-radius: 50%;
+
+
+
+
+}
+
+#wizardingworld:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px gold;
+
+	}
+
+#prythianerilea{
+
+	border-radius: 50%;
+}
+
+.fixedBox2 {
+	display: none;
+}
+
+
+}
+
+#prythianerilea:hover{
+
+
+	}
+
+#gameofthrones{
+
+	border-radius: 50%;
+
+
+}
+
+#gameofthrones:hover{
+
+
+	}
+
+#starwars{
+
+	border-radius: 50%;
+
+
+}
+
+#starwars:hover{
+
+
+	}
+
+#drwho{
+
+	border-radius: 50%;
+
+
+}
+
+#drwho:hover{
+
+
+	}
+
+#logic{
+
+	border-radius: 50%;
+
+
+}
+
+#logic:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px yellow;
+
+	}
+
+#pixar{
+
+	border-radius: 50%;
+
+
+}
+
+#pixar:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px pink;
+
+	}
+
+
+	/*Front page --------------------------  */
+
+	.tabletview {
+		display: none;
+	}
+
+
+	a {
+		text-decoration: none;
+		color: red;
+		font-weight: bold;
+	}
+
+	.content,
+.content1,
+.content2 {
+    color: #fff;
+    font: 100 24px/100px sans-serif;
+    height: 150px;
+    text-align: center;
+}
+
+.content div,
+.content1 div,
+.content2 div {
+    height: 50%;
+    width: 50%;
+}
+.red {
+    background: orangered;
+}
+.green {
+    background: yellowgreen;
+}
+.blue {
+    background: steelblue;
+}
+
+/* Flexbox Styles */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.content2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+
+
+#fixedBox2 {
+	display: block;
+}
+
+.marvelimages {
+width: 300px;
+height: 300px;
+margin-top: 50%;
+
+}
+
+#morenav{
+	display: block;
+}
+
+#spotifylink {
+	display: none;
+
+}
+
+#playlist {
+	display: none;
+}
+
+#mypic {
+height: 400px;
+width: 300px;
+}
+
+
+.hpspecificnav{
+	display: none;
+}
+
+a:hover {
+	text-decoration: line-through;
+}
+
+a:active {
+    text-decoration: line-through;
+}
+
+
+#smallnavi {
+	display:none;
+
+
+
+}
+
+#directions {
+	margin-right: 33%;
+	margin-left: 33%;
+	margin-bottom: 50px;
+	border-style: dashed;
+	border-color: green;
+	font-size: 50px;
+
+}
+
+#subdirections {
+	margin-right: 33%;
+	margin-left: 33%;
+	margin-bottom: 50px;
+	border-style: dashed;
+	border-color: green;
+	font-size: 50px;
+
+}
+
+
+.bars {
+	display: none;
+
+}

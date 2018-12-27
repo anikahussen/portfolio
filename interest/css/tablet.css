@@ -1,0 +1,746 @@
+#desktopNav {
+	display:none;
+
+}
+
+* {
+	border-style: double;
+}
+
+.interestbanner {
+	display: none;
+
+}
+
+#interesttitle {
+	position: absolute;
+	top: 20%;
+  left: 50%;
+  margin-bottom: 20px;
+  transform: translate(-50%, -50%);
+	font-family: 'newfont';
+	font-size: 24px;
+	color: #F467E1;
+	text-shadow: 2px 2px #8dbab4;
+
+}
+
+p {
+  font-family: 'newfont';
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.interestsdiv {
+
+
+}
+
+.bars {
+	display: none;
+
+}
+
+
+.column {
+	margin-bottom: 30%;
+
+}
+.interesticon {
+	margin-top: -50px;
+	width:100%;
+	height:40%;
+
+}
+
+
+
+
+.some-page-wrapper {
+	margin-top: 500px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 30%;
+
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+.blue-column {
+	height: 100px;
+}
+
+.green-column {
+		height: 100px;
+
+}
+
+.some-page-wrapper1 {
+	margin: 15px;
+	width: 25%;
+	margin-left: 37.5%;
+	margin-right: 37.5%;
+	margin-top: 50%;
+
+
+
+}
+
+
+
+.column1 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+
+.blue-column1 {
+
+	height: 50px;
+	margin-top: 20%;
+	margin-bottom: 70%;
+
+}
+
+.DesktopView{
+	display: none;
+}
+
+#interesttitle {
+	border-style: dotted;
+	border-width: thick;
+	display: flex;
+	margin-top: -10%;
+
+}
+
+
+#Welcome {
+	text-align: center;
+
+}
+
+
+.fixedBox2{
+	width 	: 80px;
+	height 	: 300px;
+	background : violet;
+
+	position : fixed;
+	top : 30%;
+	right : 0px;
+
+}
+
+
+
+.relnav {
+		width 	: 60px;
+		height 	: 70%;
+		text-decoration: none;
+		margin-top: 20%;
+		margin-top:15%;
+		font-style: 'newfont';
+		color: white;
+
+
+
+}
+
+#pfsidenav {
+	border-style: double;
+	width: 100%;
+	height 	: 70px;
+	color: white;
+}
+#pssidenav {
+	border-style: double;
+	width: 100%;
+	height 	: 70px;
+	color: white;
+}
+#insidenav {
+	border-style: double;
+	width: 100%;
+	height 	: 70px;
+	color: white;
+}
+#cssidenav {
+	border-style: double;
+	width: 100%;
+	height 	: 70px;
+	color: white;
+}
+
+.textual {
+
+	width: 100%;
+	height: 20%;
+
+
+
+}
+
+#bars {
+	display: none;
+
+}
+
+.flexitem {
+	display: flex;
+}
+
+.avengerstext {
+	border-style: dotted;
+	border-color: red;
+	shadow: 2px 2px blue;
+	font-size: 50px;
+
+
+}
+
+
+
+img {
+margin-right: 0px;
+
+}
+
+.fixedBox2{
+	width 	: 100px;
+	height 	: 370px;
+	background : violet;
+
+	position : fixed;
+	top : 30%;
+	right : 0px;
+
+
+}
+
+
+
+
+#navttle  {
+	font-family: 'newfont';
+	width: 100%;
+	color: white;
+	font-weight: bold;
+
+
+
+}
+
+}
+
+#pfsidenav {
+	border-style: double;
+	width: 100%;
+	height 	: 70px;
+	color: white;
+}
+#pssidenav {
+	border-style: double;
+	width: 100%;
+	height 	: 70px;
+	color: white;
+}
+#insidenav {
+	border-style: double;
+	width: 100%;
+	height 	: 70px;
+	color: white;
+}
+#cssidenav {
+	border-style: double;
+	width: 100%;
+	height 	: 70px;
+	color: white;
+}
+
+
+
+
+
+.relnavi {
+		width 	: 60px;
+		height 	: 70%;
+		text-decoration: none;
+		margin-top: 20%;
+		margin-top:15%;
+		font-style: 'newfont';
+
+
+
+}
+
+.relnavi a.hover{
+	-webkit-box-shadow: 0px 0px 250px 25px orange;
+}
+
+#MCUrelnav {
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+}
+#WWrelnav {
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+}
+#Faerelnav {
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+}
+#Westrelnav {
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+}
+
+
+
+#Drrelnav {
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+}
+
+#galaxyrelnav {
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+
+}
+
+#Pararelnav {
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+
+}
+
+#pixrelnav {
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+
+}
+
+#homerelnav {
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+
+}
+
+#intsnav0 {
+	padding-bottom: 10px;
+
+}
+
+#intsnav1 {
+	padding-bottom: 10px;
+
+}
+
+#intsnav2 {
+	padding-bottom: 10px;
+
+}
+
+#intsnav3 {
+	padding-bottom: 10px;
+
+}
+
+
+
+#intsnav7 {
+	padding-bottom: 10px;
+
+}
+
+#intsnav8 {
+	padding-bottom: 10px;
+
+}
+
+#smallnav1 {
+display: none;
+
+}
+#smallnav2 {
+display: none;
+
+}
+#smallnav3 {
+display: none;
+
+}
+
+#smallnav4 {
+display: none;
+
+}
+
+#smallnav5 {
+display: none;
+
+}
+#smallnav6 {
+display: none;
+
+}
+#smallnav7 {
+display: none;
+
+}
+#smallnav8 {
+display: none;
+
+}
+
+
+
+img {
+	width: 200px;
+	height: 200px;
+
+}
+
+
+#pixartimelines {
+height: 1000px;
+align-self: center;
+
+}
+
+#logictext {
+	font-family: arial;
+	font-size: 16px;
+	width:
+
+
+}
+
+#playlist{
+	width 	: 80px;
+	height 	: 500px;
+	background : yellowgreen;
+	font-size: 24px;
+	position : fixed;
+	top : 30%;
+	left : 0px;
+}
+
+#playlist a {
+	color: black;
+	text-decoration: none;
+	font-family: 'newfont';
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#playlist a.hover {
+	-webkit-box-shadow: 0px 0px 250px 25px white;
+
+}
+.hpspecificnav{
+	width 	: 100px;
+	height 	: 360px;
+	background : violet;
+
+	position : fixed;
+	top : 30%;
+	right : 0px;
+
+}
+
+.hpspecificnav a{
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+
+}
+
+#hpnav0 {
+	padding-bottom: 10px;
+
+}
+
+#hpnav1 {
+	padding-bottom: 10px;
+
+}
+
+#hpnav2 {
+	padding-bottom: 10px;
+
+}
+
+
+
+#hpnav7 {
+	padding-bottom: 10px;
+
+}
+
+#hpnav8 {
+	padding-bottom: 10px;
+
+}
+
+.hpspecificnav{
+	width 	: 100px;
+	height 	: 360px;
+	background : violet;
+
+	position : fixed;
+	top : 30%;
+	right : 0px;
+
+}
+
+.hpspecificnav a{
+	border-color: white;
+	border-style: solid;
+	border-width: 100%;
+	font-family: 'newfont';
+	font-weight: bold;
+	width: 100%;
+	height 	: 37px;
+	color: black;
+
+}
+
+#hpnav0 {
+	padding-bottom: 10px;
+
+}
+
+#hpnav1 {
+	padding-bottom: 10px;
+
+}
+
+#hpnav2 {
+	padding-bottom: 10px;
+
+}
+
+
+
+#hpnav7 {
+	padding-bottom: 10px;
+
+}
+
+#hpnav8 {
+	padding-bottom: 10px;
+
+}
+
+#wand{
+	width: 200px;
+	height: 50px;
+
+}
+
+a:hover {
+	text-decoration: line-through;
+}
+
+a:active {
+    text-decoration: line-through;
+}
+
+#smallnavi {
+	display: none;
+}
+
+#directions {
+	margin-top: 200px;
+	margin-left: 33%;
+	margin-right: 33%;
+	margin-bottom: 0%;
+	border-style: dashed;
+	border-color: green;
+	width: 33%;
+	font-size: 48px;
+
+}
+
+
+#marvel{
+
+	border-radius: 50%;
+
+
+}
+
+#marvel:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px red;
+
+	}
+
+
+#wizardingworld{
+
+	border-radius: 50%;
+
+
+
+
+}
+
+#wizardingworld:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px gold;
+
+	}
+
+#prythianerilea{
+
+	border-radius: 50%;
+}
+
+
+
+}
+
+#prythianerilea:hover{
+
+
+	}
+
+#gameofthrones{
+
+	border-radius: 50%;
+
+
+}
+
+#gameofthrones:hover{
+
+
+	}
+
+#starwars{
+
+	border-radius: 50%;
+
+
+}
+
+#starwars:hover{
+
+
+	}
+
+#drwho{
+
+	border-radius: 50%;
+
+
+}
+
+#drwho:hover{
+
+
+	}
+
+#logic{
+
+	border-radius: 50%;
+
+
+}
+
+#logic:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px yellow;
+
+	}
+
+#pixar{
+
+	border-radius: 50%;
+
+
+}
+
+#pixar:hover{
+	-webkit-box-shadow: 0px 0px 250px 25px pink;
+
+	}
+
+	a {
+
+
+	}
