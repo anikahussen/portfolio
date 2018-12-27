@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Contact</title>
+      <link rel="stylesheet" href="portfolio_css/custom.css"/>
+
+  <style>
+  table {
+    border: 1px;
+    width:100px;
+    padding: 10px;
+
+  }
+
+  .contactpg{
+       background-image: url("../portfolio_images/chat.png");
+    }
+.portfolioContact  {
+
+padding-top: 160px;
+
+}
+  </style>
+  </head>
+
+    <!--center tags and alignments are temporary!! Will delete when starting css-->
+  <body class="contactpg">
+
+    <!--navigation links to all websites, subnavigations and bolded for the page we are on (gallery.html)-->
+    <nav id="desktopNav">
+  			<ul>
+  				<li> <a href="index.html">Portfolio</a></li>
+  				<li> <a href="personal/index.html">Personal</a></li>
+  				<li> <a href="interest/index.html">Interest</a></li>
+          <li> <a href="cause/index.html">Cause</a></li>
+  			</ul>
+  		</nav>
+
+
+
+</div>
+<!--table format to ask for information for contacter -->
+<div class="portfolioContact" align="center">
+ <h1> Contact Me </h1>
+
+
+    <div id="contact" align="center">
+    <table >
+     <tr>
+      <td colspan="2">
+   <h3> Questions, Comments, Concerns... </h3>
+      </td>
+     </tr>
+     <tr>
+      <td>
+ <p>   Name:  </p>
+      </td>
+      <td>
+      <input type="text" placeholder="Full Name"/>
+      </td>
+     </tr>
+
+      <tr>
+      <td>
+    Email:
+      </td>
+      <td>
+      <input type="text" placeholder="Email"/>
+      </td>
+     </tr>
+
+      <tr>
+      <td>
+     <p>   Are you a:    </p>
+      </td>
+      <td>
+    <!--name attribute remains the same because user can only choose one choice -->
+       <form>
+      <input type="radio" name="status" value="Student" checked>Student<br>
+      <input type="radio" name="status" value="Employer/Recruiter">Employer/Recruiter<br>
+      <input type="radio" name="status" value="other"> Other
+    </form>
+      </td>
+     </tr>
+
+
+     <tr>
+      <td colspan="2" >
+ <p>     Enter Response:    </p>
+
+
+      </td>
+
+     </tr>
+
+     <tr>
+       <td colspan="2">
+
+
+<!--expand text area-->
+  <center>     <textarea rows="4" cols="50">
+
+ </textarea> </center>
+
+
+
+  <form action="submit.html" method="post">
+<input type="submit" value="Submit">
+</form>
+
+
+       </td>
+     </tr>
+    </table>
+
+
+    </div>
+
+
+  </body>
+</html>
