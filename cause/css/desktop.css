@@ -1,0 +1,279 @@
+/*                     First Page        */
+@font-face {
+    font-family: 'woke';
+    src: url(../assets/Miss Order.otf);
+}
+
+
+
+.myFont{
+	font-family : serif;
+}
+
+#Mobsrt  {
+  display: none;
+}
+
+.navbar {
+
+  top: 0px;
+
+  background-color: #343a3f;
+
+
+}
+
+
+
+#mvmtalert {
+	margin-top: 5%;
+}
+
+#greeting {
+	margin-top: 6%;
+
+}
+
+
+
+.sr-only .hover {
+	background-color:#f8c611;
+}
+
+
+
+
+#remove
+{
+  border-style: none;
+
+}
+
+#more {
+  margin-top: -1%;
+  z-index: 1;
+
+
+
+}
+
+#info {
+  display: flex;
+  align-self: center;
+
+
+
+}
+
+#subdata0 {
+  margin-top: 7%;
+}
+
+#subdata1 {
+  margin-top: 4%;
+}
+
+
+#subdata2 {
+margin-left: 15%;
+}
+
+
+#movementinfo {
+  margin-top: 5%;
+  background-color:  #fffafa	;
+
+}
+#smovementinfo {
+  margin-top: 1%;
+  background-color: #fffafa;
+
+}
+
+#gal {
+  background-color: #fffafa;
+  z-index: 1;
+
+}
+
+#involveinfo {
+  margin-top: 5%;
+  background-color: #fffafa;
+
+}
+
+#sinvolveinfo {
+  margin-top: 1%;
+
+}
+
+#regions {
+  margin-top: 2%;
+  position: relative;
+
+  z-index; 1%;
+}
+
+
+#invbtn {
+    margin-top: 5%;
+}
+
+#socialmedia {
+    margin-top: 5%;
+
+}
+
+#buttonnav {
+  padding: 0px;
+
+
+}
+
+
+
+.navbar a {
+  font-size: 25px;
+
+
+
+}
+
+#buttonnav button:hover{
+background-color: #f8c611;
+color: #ffffff;
+}
+
+#buttonnav button:active{
+background-color:#f8c611;
+color: #ffffff;
+}
+
+#buttonnav button:focus{
+background-color:#f8c611;
+color: #ffffff;
+}
+
+#btnin button:hover{
+background-color: #f8c611;
+color: #ffffff;
+
+}
+
+#btnin button:active{
+background-color:#f8c611;
+color: #ffffff;
+}
+
+#btnin button:focus{
+background-color:#f8c611;
+color: #ffffff;
+}
+
+#othernav:hover{
+color: #d60683;
+}
+
+#othernav:active{
+color: #d60683;
+}
+
+#othernav:focus{
+color: #d60683;
+}
+
+.navbar-brand {
+  z-index: 3;
+}
+
+.mobileview {
+	display: none;
+}
+
+
+@font-face {
+    font-family: 'wfont';
+    src: url(assets/CenturyGothic.ttf);
+}
+@font-face {
+    font-family: 'sunset';
+    src: url(assets/SunsetBoulevard.ttf);
+}
+
+h1 {
+	font-family: 'Miss Order';
+	font-size: 65px;
+  font-weight: bold;
+  text-shadow: 2px 2px #d60683;
+}
+
+h3 {
+	font-family: 'Miss Order';
+	font-size: 65px;
+  font-weight: bold;
+  text-shadow: 2px 2px #d60683;
+}
+
+#titles {
+  font-family: 'wfont';
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 2px 2px #d60683 ;
+}
+
+#intro {
+  position: absolute;
+  bottom: 60%;
+  left: 3%;
+  border-radius: 25px;
+  background-color: #f8c611;
+}
+
+#involvebtn {
+  position: absolute;
+  bottom: 45%;
+  left: 15%;
+  left: 20%;
+  background-color: #343a3f;
+  border-color:#d60683;
+  border-style: double;
+  color:#f8c611;
+  font-weight: bold;
+  font-size:25px;
+  box-shadow: 6px 6px #f8c611;
+  width: 25%;
+
+}
+
+#involvebtn : hover{
+background-color: #d60683;
+
+}
+
+.alert-info p{
+font-weight:bold;
+font-size: 18px;
+
+}
+
+#hamburger {
+    width: 100%;
+    height: 70%;
+    height: 7px;
+    background-color: #d60683;
+    margin: 6px 0;
+}
+
+#mvmtbtn {
+  font-family: 'Miss Order';
+  font-size: 24px;
+  box-shadow: 4px 4px lightgray;
+}
+#invlvebtn {
+  background-color: #d60683;
+  font-family: 'Miss Order';
+  font-size: 24px;
+  box-shadow: 4px 4px #d60683;
+}
+
+/*                     Second Page        */

@@ -1,0 +1,186 @@
+/*                     First Page        */
+
+.myFont{
+	font-family : serif;
+}
+@font-face {
+    font-family: 'wfont';
+    src: url(assets/CenturyGothic.ttf);
+}
+@font-face {
+    font-family: 'sunset';
+    src: url(assets/SunsetBoulevard.ttf);
+}
+@font-face {
+    font-family: 'Miss Order';
+    src: url(assets/Miss Order.otf);
+}
+
+#Desksrt  {
+  display: none;
+}
+
+#navigation {
+  position: fixed;
+
+  top: 0px;
+  z-index:2;
+  background-color: #f8f9fa;
+  height: 20%;
+
+}
+
+
+
+
+#greeting  {
+  position: relative;
+
+  margin-top: 70%;
+
+
+}
+
+#othernav {
+  margin-top: 5%;
+}
+
+#buttonnavdiv {
+  margin-top: 5%;
+}
+
+
+
+
+h1 {
+	font-family: 'Miss Order';
+	font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px #d60683;
+}
+
+#greeting {
+	margin-top: 5%;
+}
+
+.Desktopview {
+	display: none;
+}
+
+#titlen{
+font-family: "Miss Order";
+text-shadow: 2px 2px #d60683 ;
+
+
+}
+
+
+h3 {
+	font-family: 'Miss Order';
+
+  font-weight: bold;
+  text-shadow: 2px 2px #d60683;
+}
+
+#mobilecenter{
+	text-align: center;
+}
+
+#titles {
+  font-family: 'wfont';
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 2px 2px #d60683 ;
+}
+
+#mobilewomen {
+	font-family: "Miss Order";
+	text-shadow: 2px 2px #d60683;
+	font-size: 38px;
+}
+
+#titles {
+	text-align: center;
+}
+
+.card {
+	margin-left: 15%;
+}
+
+
+#textual {
+	text-align: center;
+}
+
+
+.dropping {
+
+	text-align: center;
+
+}
+
+#social {
+	margin-left:45%;
+	margin-top: 10%;
+}
+
+#tweet {
+	margin-left:42%;
+	margin-top: 10%;
+}
+
+#invbtn {
+	background-color: #d60683;
+
+
+}
+
+
+#logofooter {
+	width: 64px;
+	height: 64px;
+}
+
+
+#btnin button:active{
+background-color:#f8c611;
+color: #ffffff;
+}
+
+#btnin button:focus{
+background-color:#f8c611;
+color: #ffffff;
+}
+
+#othernav:hover{
+color: #d60683;
+}
+
+#othernav:active{
+color: #d60683;
+}
+
+#othernav:focus{
+color: #d60683;
+}
+
+
+
+
+#newcard {
+	margin-left: 0%;
+
+}
+
+#newph {
+margin-right: 15%;
+
+}
+
+.card {
+	margin-left: 0%;
+}
+
+#error {
+	margin-left: 15%;
+}
