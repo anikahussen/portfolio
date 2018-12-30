@@ -1,6 +1,6 @@
 # Portfolio
-  #Home Landing Page
-    #Bootstrap Grid, JavaScript/JQuery, Sound JS, Velocity JS, HTML, CSS
+    #Home Landing Page
+      #Bootstrap Grid, JavaScript/JQuery, Sound JS, Velocity JS, HTML, CSS
       
     # Cause Directory 
       # Topic: Female Empowerment 
